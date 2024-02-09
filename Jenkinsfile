@@ -155,9 +155,9 @@ node {
   def excludeRegex = excludeBranches.join('|').replaceAll('\\*', '.*')
 
   if (env.BRANCH_NAME != 'master') {
-    properties([
-        disableConcurrentBuilds(abortPrevious: true)
-    ])
+    // properties([
+    //     disableConcurrentBuilds(abortPrevious: true)
+    // ])
   }
 
   try {
