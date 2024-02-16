@@ -11,4 +11,4 @@ if [ -z "$AGNOS_VERSION" ]; then
 fi
 
 export STAGING_ROOT="/data/safe_staging"
-FINGERPRINT="FORD ESCAPE 4TH GEN"
+export FINGERPRINT="FORD ESCAPE 4TH GEN"
